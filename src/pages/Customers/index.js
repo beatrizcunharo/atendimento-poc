@@ -17,6 +17,7 @@ export default function Customers() {
 
     async function handleSubmit(e) {
         e.preventDefault();
+        setLoading(true)
 
         if(nome === "" || cnpj === "" || endereco === "") {
             toast.error("Preencha todos os campos...");
@@ -32,9 +33,11 @@ export default function Customers() {
             setCnpj("");
             setEndereco("");
             toast.success(nome + " cadastrado com sucesso.")
+            setLoading(false)
         }).catch(error => {
             toast.error("Ops, algo deu errado...")
             console.error("Erro ao cadastrar cliente ", error)
+            setLoading(false)
         })        
     }
 

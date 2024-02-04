@@ -57,7 +57,7 @@ export default function New () {
         }  
 
         loadCustomer()
-    },[id])
+    },[id]) // eslint-disable-next-line react-hooks/exhaustive-deps
 
     async function loadId(lista) {
         const docRef = doc(db, "chamados", id);

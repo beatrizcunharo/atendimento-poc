@@ -22,8 +22,7 @@ Versão NodeJS: 16.14.2
 - Firebase Autentication;
 - Firebase Firestore;
 - React Icons;
-- Data Fns;
-- Netlify.
+- Data Fns.
 
 ## Como rodar?
 

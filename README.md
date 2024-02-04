@@ -5,7 +5,6 @@ Projeto desenvolvido para uso de funcionalidades presentes no curso "React Js do
 ## Links
 
 Link do curso Udemy: www.udemy.com/course/curso-reactjs/ (link também presente na descrição) </br>
-Link do projeto em produção: https://lista-tarefas-poc.netlify.app/
 
 ## Versões necessárias
 
